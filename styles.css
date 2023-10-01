@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(228, 224, 224);
+    margin-top: 275px;
+}
+
+header {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 200px);
+    justify-items: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+.result-score {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+#result {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
